@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(social-media/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo a{
+    font-size: 40px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.font{
+    color: red;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    margin: 15px 20px;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 300px;
+}
+nav ul li .service{
+    color: red;
+}
+nav ul li a:hover{
+    color: red;
+}
+p{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0, 0.4);
+
+}
+h1{
+    color: rgb(255, 0, 0);
+}
+h2{
+    color: rgb(255, 0, 0);
+}
+.reserves{
+   margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+}
+h4{
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+        background: url(social-media/background.jpg);
+        background-position: center;
+        background-size: cover;
+        padding-top: 30px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .logo a{
+        font-size: 30px;
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .font{
+        color: red;
+    }
+    nav{
+        padding: 5px 1px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 15px 13px;
+        list-style: none;
+    }
+    nav ul li a{
+        color: black;
+        text-decoration: none;
+        font-weight: 300px;
+        font-size: 17px;
+    }
+    nav ul li .service{
+        color: red;
+    }
+    nav ul li a:hover{
+        color: red;
+    }
+    p{
+        color: rgb(255, 255, 255);
+        background: rgb(0, 0, 0, 0.4);
+        text-shadow: 3px 3px 3px black;
+    
+    }
+    h1{
+        color: rgb(255, 0, 0);
+    }
+    h2{
+        color: rgb(255, 0, 0);
+    }
+    .reserves{
+       margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100vh;
+    }
+    h4{
+        text-align: center;
+    }
+}
+ /*this is home page coding and thanks..hope this will helpful and you can get basic idea about home page design*/
+  /*this is your code boy thisara sagara hewawitharana you can contact me from those links in web page or links following*/
+
+   /*WhatsApp - +94788303001*/
+   /*Facebook - Thisara Sagra*/
+   /*Email - sagarathisara123@gmail.com*/
+
+   /*for facebook and email responding time take lonnger than i respond to whatsApp massages❤️❤️(❁´◡`❁)*/
